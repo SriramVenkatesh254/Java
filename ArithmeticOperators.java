@@ -29,24 +29,5 @@ class ArithmeticOperators{
         byte num10 = 5;
         int reminder = num9 % num10;
         System.out.println(reminder);
-
-        //Increment operators
-
-        //Ways to increment
-        int number = number + 1;
-        int number+=1;
-        int number++; //Post-Increment
-        int ++number; //Pre-Increment
-
-
-        int num = 7;
-        int result1 = ++num;
-        // This will first increment the value and then it will fetch. Hence, it becomes 8.
-        System.out.println(result1);
-        
-        int result2 = num++;
-        // This will first fetch the value 7 and store it in the result and then increment the value by 1. Hence, it is still 7.
-        System.out.println(result2);
-
     }
 }
