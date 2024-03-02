@@ -1,7 +1,7 @@
 class Datatypes{
     public static void main(String a[]){
 
-        Integer
+        //Integer
         int num = 5;
         System.out.println(num);
 
@@ -14,21 +14,21 @@ class Datatypes{
         byte by = 1;
         System.out.println(by);
 
-        Double
+        //Double
         float floatNum = 5.8f;
         System.out.println(floatNum);
 
         double doubleNum = 5.88989;
         System.out.println(doubleNum);
 
-        Char
+        //Char
         char name = 'S';
         System.out.println(name);
 
         String user = "Sriram";
         System.out.println(user);
 
-        Boolean
+        //Boolean
         boolean bool = true;
         System.out.println(bool);
 
