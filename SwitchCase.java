@@ -1,6 +1,6 @@
 class SwitchCase{
     public static void main(String args[]){
-        int weekNumber = 16;
+        int weekNumber = 6;
         switch(weekNumber){
             case 1:{
                 System.out.println("Monday");
