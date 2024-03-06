@@ -13,6 +13,5 @@ class ClassAndObjectsNew{
         Person obj = new Person();
         obj.singAsong();
         obj.dance();
-
     }
 }
