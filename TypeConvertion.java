@@ -1,5 +1,3 @@
-import java.util.*;
-
 class typeConvertion{
     public static void main(String a[]){
         byte physics = 100;

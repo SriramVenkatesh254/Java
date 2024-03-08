@@ -32,8 +32,8 @@ class Datatypes{
         boolean bool = true;
         System.out.println(bool);
 
-        boolean bool = false;
-        System.out.println(bool);
+        // boolean bool = false;
+        // System.out.println(bool);
         
     }
 }

@@ -8,20 +8,20 @@ class LogicalOperators{
         // ! -> Logical NOT
 
         //Logical AND &&
-        int x = 8;
-        int y = 5;
-        int a = 1;
-        int b = 7;
-        boolean result = x > y && a < b;
-        System.out.println(result); //true
+        // int x = 8;
+        // int y = 5;
+        // int a = 1;
+        // int b = 7;
+        // boolean result = x > y && a < b;
+        // System.out.println(result); //true
 
         // Logical OR ||
-        int x = 15;
-        int y = 13;
-        int a = 7;
-        int b = 90;
-        boolean result = x < y || a > b;
-        System.out.println(result); //false
+        // int x = 15;
+        // int y = 13;
+        // int a = 7;
+        // int b = 90;
+        // boolean result = x < y || a > b;
+        // System.out.println(result); //false
 
         //Logical NOT 
         int x = 10;

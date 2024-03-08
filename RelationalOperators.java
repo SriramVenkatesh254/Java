@@ -10,34 +10,34 @@ class RelationalOperators{
         // != -> Not equal to
         
         //Lesser than
-        int x = 10;
-        int y = 3;
-        boolean result = x < y;
-        System.out.println(result); //false
+        // int x = 10;
+        // int y = 3;
+        // boolean result = x < y;
+        // System.out.println(result); //false
 
         //Greater than
-        int x = 10;
-        int y = 3;
-        boolean result = x > y;
-        System.out.println(result); //true
+        // int x = 10;
+        // int y = 3;
+        // boolean result = x > y;
+        // System.out.println(result); //true
 
         //Lesser than equal to
-        int x = 41;
-        int y = 40;
-        boolean result = x <= y;
-        System.out.println(result); //false
+        // int x = 41;
+        // int y = 40;
+        // boolean result = x <= y;
+        // System.out.println(result); //false
 
         //Greater than equal to
-        int x = 41;
-        int y = 40;
-        boolean result = x >= y;
-        System.out.println(result); //true
+        // int x = 41;
+        // int y = 40;
+        // boolean result = x >= y;
+        // System.out.println(result); //true
 
         //Equal to
-        int x = 5;
-        int y = 5;
-        boolean result = x == y;
-        System.out.println(result); //true
+        // int x = 5;
+        // int y = 5;
+        // boolean result = x == y;
+        // System.out.println(result); //true
 
         //Not equal to
         int x = 5;
