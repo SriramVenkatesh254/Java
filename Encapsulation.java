@@ -6,7 +6,7 @@ class Car{
     private int price;
     //Private -> It will make the variable private. Meaning, it belongs only to its respective class and we cannot access it outside the class
 
-    //All the instamce variables must be private variables and should be made accessible only by using Methods and no one outside the class can access those variables without the methods.
+    //All the instance variables must be private variables and should be made accessible only by using Methods and no one outside the class can access those variables without the methods.
 
     public String getBrand(){
         return brand;
@@ -44,12 +44,13 @@ public class Encapsulation {
         // obj.price = 1000;
         // System.out.println(obj.brand);
         obj.setBrand("Tata");
-        System.out.println(obj.getBrand());
+        // System.out.println(obj.getBrand());
 
         obj.setModelName("Nexon");
-        System.out.println(obj.getModelName());
+        // System.out.println(obj.getModelName());
 
         obj.setPrice(10000);
-        System.out.println(obj.getPrice());
+        // System.out.println(obj.getPrice());
+        System.out.println(obj.getBrand() + "'s" + " : " + obj.getModelName() + " : " + obj.getPrice());
     }
 }

@@ -20,10 +20,12 @@ class Mobile{
 public class StaticBlock {
     public static void main(String a[]) throws ClassNotFoundException{
         Class.forName("Mobile");
-        Mobile obj1 = new Mobile();
+        //Class will loaded only once and only when the object is created. But, if we need to load class without creating an object, This is the way. (Class.forName())
+
+        // Mobile obj1 = new Mobile();
         // System.out.println("Inside Object 1");
 
-        Mobile obj2 = new Mobile();
+        // Mobile obj2 = new Mobile();
         // System.out.println("Inside object 2");
     }
 }
