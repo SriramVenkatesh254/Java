@@ -23,5 +23,7 @@ public class Inheritance {
         B obj1 = new B();
         obj1.method3(); //Which is in the Class B itself
         obj1.method1(); //Which is inside the class A (Inherited)
+
+        //So, basically Class B inherits class A. So, all the properties from class A is now accessible by Class B. Class B will have it's own properties and the properties of Class A as well.
     }   
 }
