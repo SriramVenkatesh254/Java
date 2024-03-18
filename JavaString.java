@@ -12,9 +12,16 @@ public class JavaString {
 
         //4. There's something called the String Buffer, in which Strings act as a Mutable object.
         //String Buffer -> Mutable String
-        // StringBuffer s1 = new StringBuffer("Sriram");
-        // StringBuffer s2 = new StringBuffer("Sriram");
+        StringBuffer s1 = new StringBuffer("Sriram");
+        StringBuffer s2 = new StringBuffer("Sriram");
         // System.out.println(s1 == s2);
+
+        String str1 = "Hello";
+        System.out.println("Original string: " + str1);
+
+        // Concatenating " World" to the original string
+        str1 = str1 + " World";
+        System.out.println("Modified string: " + str1);
 
         StringBuffer sb = new StringBuffer("ewfhbwEHJBWHGBWJRBGJKWGWHGwnrlkgjlthbliw3hnlk3rhwgi3hg3lil3rfgh4bgjk4g");
         // sb.append(" private Limited");
