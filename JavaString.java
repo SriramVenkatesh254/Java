@@ -1,14 +1,38 @@
 public class JavaString {
     public static void main(String a[]){
-        //1. Strings are Immutable in nature.
+        //1. Strings are Immutable in nature. Here's an example.
+        // String s1 = "Sriram";
+        // System.out.println("Before Modification: " + s1);
+        // int hashCode = System.identityHashCode(s1);
+        // System.out.println(hashCode);   //Before Modification: Sriram
+        //                                 //1247233941
+
+        // s1 = s1 + " Venkatesh";
+        // System.out.println("After modification " + s1);
+        // int hashCode1 = System.identityHashCode(s1);
+        // System.out.println(hashCode1);      //After modification Sriram Venkatesh
+        //                                     //603742814
+
+
+        
         //2. Strings are Class and we shud create an instance of it to use String. Heres an example.
         // String name = new String("Sriram Venkatesh");
         // System.out.println(name);
 
         //3. Strings will create separate object if the value of the string is different. If the value of the string is same, it wont create another object. Instead, It will just create one object and will link its address. Here's ann example 
-        // String s1 = "Sriram";
-        // String s2 = "Sriram";
-        // System.out.println(s1 == s2); //True
+
+        //Note: System.identityHashCode() -> Gives you the approximate integer representation of the Memory Address
+        // String str1 = "Sriram";
+        // System.out.println(System.identityHashCode(str1)); //1247233941
+        // String str2 = "Sriram";
+        // System.out.println(System.identityHashCode(str2)); //1247233941
+        // System.out.println(str1 == str2); //True
+
+        // String str1 = "Sriram";
+        // System.out.println(System.identityHashCode(str1)); //1247233941
+        // String str2 = "sriram";
+        // System.out.println(System.identityHashCode(str2)); //1067040082
+        // System.out.println(str1 == str2); //False
 
         //4. There's something called the String Buffer, in which Strings act as a Mutable object.
         //String Buffer -> Mutable String
