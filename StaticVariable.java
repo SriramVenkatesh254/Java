@@ -1,12 +1,13 @@
+
+// In Java, a static variable (also known as a class variable) is a variable that belongs to the class itself, rather than to instances (objects) of the class. This means that there is only one copy of the static variable shared among all instances of the class. Static variables are declared using the static keyword.
+
 class Human{
     String name;
     String homeTown;
     static String language;
 
-    //Static Variables -> If we make a variable static, it becomes a part of the class and not the object. This static variable will be common to all the classes and if we change the value of this static variable, All the values will be changed.
-
     public void showDetails(){
-        System.out.println(name + " : " + homeTown + " : " + language); //NOTE: Non static methods can have static variables.
+        System.out.println(name + " : " + homeTown + " : " + language); //NOTE: Non static methods can have static variables, in them
     }
 }
 
@@ -23,6 +24,7 @@ public class StaticVariable {
         // Human.language = "Tamil";
 
         Human.language = "Telugu";
+        //The static variable, Language becomes the part of the class. Hence, it is called using the Class and not the Instance.
 
         obj.showDetails();
         obj2.showDetails();
