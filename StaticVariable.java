@@ -20,7 +20,7 @@ public class StaticVariable {
 
         Human obj2 = new Human();
         obj2.name = "Harish";
-        obj2.homeTown = "Trichy";
+        obj2.homeTown = "Salem";
         // Human.language = "Tamil";
 
         Human.language = "Telugu";
