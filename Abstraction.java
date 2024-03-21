@@ -22,7 +22,7 @@ class Laptop extends Computer{
     public void mobility(){
         System.out.println("Inside Mobility method of a Laptop class.");
     }
-}
+}   
 
 //Main class
 public class Abstraction {
