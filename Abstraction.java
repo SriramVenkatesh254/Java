@@ -3,7 +3,7 @@
 // RULES
 
 // 1. The class must have the abstract keyword
-// 2. The abstract class can have abstract methods and concrete  methods as well or only one of them.
+// 2. The abstract class can have abstract methods and concrete  methods as well or any one of them.
 // 3. The abstract method should have the abstract keyword.
 // 4. YOU CANNOT CREATE AN INSTANCE OF AN ABSTRACT CLASS. (Use upcasting)
 
