@@ -1,33 +1,33 @@
-class Human{
+class Sathyabama{
+    String regNo;
     String name;
-    String homeTown;
-    static String language;
+    static String department = "Electronics and communication Engineering";
 
-    public void showDetails(){
-        System.out.println(name + " : " + homeTown + " : " + language); 
+    //Non-static method
+    public void show(){
+        System.out.println(regNo + " : " + name + " : " + department);
     }
 
-    public static void showDetails1(Human obj){
-        System.out.println(obj.name + " : " + obj.homeTown + " : " + language); //Non static varibles cannot be used in static methods diretclty without object reference. We can do it indiretcly only with the object reference.
+    //Static Method
+    public static void show(Sathyabama obj){
+        System.out.println(obj.regNo + " : " + obj.name + " : " + department);
+        //Non-static variables cannot be accessed in static methods directly. But, we can do it Indierctly with the object reference.
     }
 }
 
-public class StaticMethod {
+public class StaticMethod{
     public static void main(String args[]){
-        Human obj = new Human();
-        obj.name = "Sriram";
-        obj.homeTown = "Madurai";
-        // Human.language = "Tamil";
+        Sathyabama obj1 = new Sathyabama();
+        obj1.regNo = "42130475";
+        obj1.name = "Sriram";
+        obj1.show();
 
-        Human obj2 = new Human();
-        obj2.name = "Harish";
-        obj2.homeTown = "Trichy";
-        // Human.language = "Tamil";
+        Sathyabama obj2 = new Sathyabama();
+        obj2.regNo = "42130501";
+        obj2.name = "Thiru";
+        obj2.show();
 
-        Human.language = "Telugu";
-
-        obj.showDetails();
-        obj2.showDetails();
-        Human.showDetails1(obj);
+        //Accessing the static method.
+        Sathyabama.show(obj2); //Static methods are accessed in a static way. (ie, using the class and not the reference variable)
     }
 }
