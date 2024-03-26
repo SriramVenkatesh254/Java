@@ -23,7 +23,7 @@ class Geeks{
         this.age = age;
         firstName = "Ajith";
     }
-
+ 
     public Geeks(String firstName){
         this.firstName = firstName;
         age = 45;
