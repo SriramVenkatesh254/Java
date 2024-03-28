@@ -40,6 +40,6 @@ public class MultilevelInheritance {
         obj1.method5();
         obj1.method6(); //Both are from Class C
 
-        //So, basically, Class B inherits Class A. So, class B will have all the properties and methods from Class A. Similarly, class C inherits Class B. So now, Class B will have both the properties of Class A and Class B as well. This is called, Multilevel Inheritance.
+        //So, basically, Class B inherits Class A. So, class B will have all the properties and methods from Class A. Similarly, class C inherits Class B. So now, Class C will have both the properties of Class A and Class B as well. This is called, Multilevel Inheritance.
     }
 }
