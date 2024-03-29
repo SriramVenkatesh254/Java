@@ -11,7 +11,7 @@ class A{
 
 class B extends A{
     B(){
-        System.out.println("Inside class B's constructor"); //this
+        System.out.println("Inside class b's constructor"); //this
     }
 
     B(int x){
