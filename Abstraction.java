@@ -3,7 +3,7 @@
 // RULES
 
 // 1. The class must have the abstract keyword
-// 2. The abstract class can have abstract methods and concrete  methods as well or any one of them.
+// 2. The abstract class can have abstract methods and concrete methods as well or any one of them.
 // 3. The abstract method should have the abstract keyword.
 // 4. YOU CANNOT CREATE AN INSTANCE OF AN ABSTRACT CLASS. (Use upcasting)
 
@@ -20,7 +20,7 @@ class Laptop extends Computer{
 
     //Implementation of the mobility method
     public void mobility(){
-        System.out.println("Inside Mobility method of a Laptop class.");
+        System.out.println("Inside Mobility method of the Laptop class.");
     }
 }   
 
