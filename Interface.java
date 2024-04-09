@@ -60,5 +60,6 @@ public class Interface {
         Computer desk = new Desktop();
         Developer sriram = new Developer();
         sriram.devApp(lap);
+        sriram.devApp(desk);
     }
 }

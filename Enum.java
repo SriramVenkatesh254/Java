@@ -8,6 +8,7 @@ enum Status{
 public class Enum {
     public static void main(String args[]){
         Status s = Status.Failed;
+        System.out.println(s);
         // System.out.println(s.ordinal()); //Returns the Index value
         Status[] ss = Status.values(); //Returns the Entire array of the Enum
         for(Status r : ss){

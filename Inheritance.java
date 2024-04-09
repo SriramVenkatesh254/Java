@@ -11,7 +11,7 @@ class A{
 class B extends A{
     public void method3(){
         System.out.println("Method 3");
-    }multi
+    }
 
     public void method4(){
         System.out.println("Method 4");
