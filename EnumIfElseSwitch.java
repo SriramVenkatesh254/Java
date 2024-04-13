@@ -19,6 +19,7 @@ public class EnumIfElseSwitch {
         // }
 
         Day day = Day.Monday;
+        System.out.println(day.getClass().getSuperclass());
         switch (day) {
             case Monday:
                 System.out.println("Monday");
