@@ -13,7 +13,7 @@ interface A
 //     }
 // }
 
-public class Demo22 {
+public class FunctionalInterface {
     public static void main(String args[]){
         A obj = new A(){
             public void show(){
