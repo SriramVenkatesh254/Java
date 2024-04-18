@@ -4,7 +4,7 @@ interface Desktop{
 
 public class LambdaExpressions {
     public static void main(String args[]){
-        Desktop obj = () -> System.out.println("Desktops are Immobile");
+        Desktop obj = () -> System.out.println("Desktops are Immobile and faster");
         obj.imMobile();
     }
 }
