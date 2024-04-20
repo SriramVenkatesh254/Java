@@ -20,10 +20,14 @@ public class CustomException {
             j = 18 / i;
             if(j == 0)
                 throw new MyOwnException("Output -> 0");
-                throw new MyOwnException2("I dont know what to do")
+                throw new MyOwnException2("Output -> 0");
         }
         catch(MyOwnException e){
             j = 18 / 1;
+            System.out.println("Thats the default output. " + e);
+        }
+        catch(MyOwnException2 e){
+            j = 18/1;
             System.out.println("Thats the default output. " + e);
         }
         System.out.println(j);
