@@ -1,4 +1,5 @@
 public class TryWithMultipleCatch {
+    @SuppressWarnings("null")
     public static void main(String args[]){
         int nums[] = new int[5];
         int i = 2;
