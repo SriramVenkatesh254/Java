@@ -1,40 +1,36 @@
-class A extends Thread{
-    private int threadNumber;
-    public A(int threadNumber){
-        this.threadNumber = threadNumber;
-    }
+class A implements Runnable{
     @Override
     public void run(){
-        for(int i = 0; i < 5; i++){
-            System.out.println(i + " from thread number " + threadNumber);
-            // try {
-            //     Thread.sleep(1000);
-            // } catch (InterruptedException e) {
-            //     e.printStackTrace();
-            // }
+        for(int i = 0; i < 10; i ++){
+            System.out.println(i);
         }
     }
 }
 
-// class B extends Thread{
-//     @Override
-//     public void run(){
-//         for(int j = 0; j < 5; j++){
-//             System.out.println(j);
-//             // try {
-//             //     Thread.sleep(1000);
-//             // } catch (InterruptedException e) {
-//             //     e.printStackTrace();
-//             // }
-//         }
-//     }
-// }
+class B implements Runnable{
+    @Override
+    public void run(){
+        for(int i = 0; i < 10; i ++){
+            System.out.println(i);
+        }
+        
+    }
+}
+
+
 
 public class MultiThreading {
-    public static void main(String[] args) {
-        for (int i = 0; i < 5; i++){
-            A thread = new A(i);
-            thread.start();
+    public static void main(String args[]) {
+        Thread thread1 = new Thread(new A());
+        thread1.start();
+
+        Thread thread2 = new Thread((new B()));
+        thread2.start();
+
+        try {
+            thread2.join(10000); // Wait for thread to finish
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 }
